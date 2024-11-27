@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Estadio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Simulador de Estadio de Fútbol</h1>
+        <canvas id="stadiumCanvas" width="1000" height="600"></canvas>
+        <div id="controls">
+            <button onclick="addSeats()">Añadir Gradas</button>
+            <button onclick="addGoal()">Añadir Portería</button>
+            <button onclick="addTower()">Añadir Torre de Iluminación</button>
+            <button onclick="addScreen()">Añadir Pantalla Gigante</button>
+            <button onclick="changeColor()">Cambiar Color</button>
+            <button onclick="rotateElement()">Rotar Elemento</button>
+            <button onclick="resetStadium()">Restablecer Estadio</button>
+            <button onclick="randomStadium()">Estadio Aleatorio</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
